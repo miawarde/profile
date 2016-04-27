@@ -32,7 +32,7 @@ a{
 }
 
 a:hover{
-    color: #7F7F7F;
+    color: #FF6666;
     font-size: 16px;
 }
 
@@ -58,10 +58,36 @@ div{
 }
 
 table p {
-  font-size: 11px;
+  font-size: 12px;
   text-align: justify;
 }
 
 .poster {
   margin: 10px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-red {
+    background-color: #DD5555;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.btn-red:hover {
+    background-color: #C61414;
+    color: white;
+}
+
+.list-inline {
+    padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
 }
